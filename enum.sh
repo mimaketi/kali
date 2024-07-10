@@ -1,7 +1,7 @@
 #!/bin/sh
 NAME=$1
 IP=$2
-WIKIPATH=/usr/share/vimwiki/TCM-Sec
+WIKIPATH=/mnt/Synology/Obsidian/vimwiki/TCM-Sec
 FP=$WIKIPATH/$NAME/80.tcp.md
 if [ -z "$NAME" ]; then
   echo "Error: NAME is empty"
