@@ -1,7 +1,7 @@
 #!/bin/bash
 NAME=$1
 IP=$2
-WIKIPATH=/usr/share/vimwiki/TCM-Sec
+WIKIPATH=/mnt/Synology/Obsidian/vimwiki/TCM-Sec
 if [ -z "$NAME" ]; then
   echo "Error: NAME is empty"
   exit 1  # Exit with an error code (optional)
